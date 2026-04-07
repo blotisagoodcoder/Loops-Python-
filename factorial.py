@@ -8,3 +8,13 @@ def factorial(x):
 print(factorial.__doc__)
 print("the factorial of 0",factorial(0))
 print("the factorial of 5",factorial(5))
+
+
+
+def fact(num):
+    f=1
+    for i in range(1,num+1):
+        f=f*1
+    print("Factorial of a number is ",f)
+num=int(input("ENTER A NUMBER HOOMAN! "))
+fact(num)
